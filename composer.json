@@ -1,0 +1,25 @@
+{
+    "name": "phptree/phptree",
+    "type": "project",
+    "keywords": ["phptree","php","php-project","sample-php","code-php","phptree.org"],
+    "require": {
+        "phptree/core": "dev-main",
+        "phptree/pdo": "dev-main"
+    },
+    "require-dev": {
+        "phptree/core": "dev-main"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHPTree ( support )",
+            "email": "support@phptree.org"
+        },
+        {
+            "name": "Kodr Fouani",
+            "email": "Kodr@phptree.org",
+            "role": "Project Founder"
+        }
+    ],
+    "minimum-stability": "dev"
+}
