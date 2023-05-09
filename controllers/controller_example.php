@@ -15,7 +15,7 @@ class example  {
 		DB::$debug_file = DIR . "/var/logs/sql.text";
 		
 		//Create new Database PDO instance
-		$this->db =	new DB( array('host' => 'mysql:host=localhost;' , 'username' => 'root' , 'password' => 'root') );
+		$this->db =	new DB( array('host' => 'mysql:host=localhost;' , 'username' => 'roots' , 'password' => 'root') );
 		//Or make instance with selected database
 		//$this->db =	new DB( array('host' => 'mysql:host=localhost;dbname=example_phptree' , 'username' => 'root' , 'password' => 'root') );
 	}
@@ -26,6 +26,8 @@ class example  {
 	#[Route('/')]
 	public function Home_example(){
 		echo "Hellow World";
+		
+		throw new Exception('Division by zero.');
 	}
 	
 	/*
