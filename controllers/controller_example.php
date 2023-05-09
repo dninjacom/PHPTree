@@ -26,8 +26,6 @@ class example  {
 	#[Route('/')]
 	public function Home_example(){
 		echo "Hellow World";
-		
-		throw new Exception('Division by zero.');
 	}
 	
 	/*
