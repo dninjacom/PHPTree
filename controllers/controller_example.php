@@ -15,7 +15,7 @@ class example  {
 		DB::$debug_file = DIR . "/var/logs/sql.text";
 		
 		//Create new Database PDO instance
-		$this->db =	new DB( array('host' => 'mysql:host=localhost;' , 'username' => 'roots' , 'password' => 'root') );
+		$this->db =	new DB( array('host' => 'mysql:host=localhost;' , 'username' => 'root' , 'password' => 'root') );
 		//Or make instance with selected database
 		//$this->db =	new DB( array('host' => 'mysql:host=localhost;dbname=example_phptree' , 'username' => 'root' , 'password' => 'root') );
 	}
@@ -108,7 +108,6 @@ class example  {
 	public function post_data_example( $api ){
 		
 		echo "Data posted";
-		print_r($api->params);
 	}
 	
 	/*
@@ -117,8 +116,8 @@ class example  {
 	#[Route('/hello/{user}/{id}', array( 'user' => '[a-z-A-Z]+' ,'id' => '[0-9]+') )]
 	public function example_dynamic_route_example( $api ){
 		
-		$name = $api->params['user'];
-		$id = $api->params['id'];
+		$name = Route::$params['user'];
+		$id = Route::$params['id'];
 	
 		echo "Hello $name your ID is ($id) ";
 	}
