@@ -114,10 +114,10 @@ class example  {
 		example with a route with dynamic params
 	*/
 	#[Route('/hello/{user}/{id}', array( 'user' => '[a-z-A-Z]+' ,'id' => '[0-9]+') )]
-	public function example_dynamic_route_example( $api ){
+	public function example_dynamic_route_example( $params ){
 		
-		$name = Route::$params['user'];
-		$id = Route::$params['id'];
+		$name = $params['user'];
+		$id = $params['id'];
 	
 		echo "Hello $name your ID is ($id) ";
 	}

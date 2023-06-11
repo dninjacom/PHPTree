@@ -18,7 +18,7 @@ class mainClass {
 		//Route as closure execution;
 		RouteManager::add("/closure/route/{user}/{email}/{id}", 
 						 array( 'id' => '[0-9-a-z-A-Z-_!]+', 'email' => '[0-9-a-z-A-Z]+', 'user' => '[0-9-a-z-A-Z]+' ), 
-						 function( $params ) use ($number) : int{
+						 function( $params ) use ($number) : void{
 							
 							echo "closure is working , test number : $number";
 							echo "Params : <pre>";
