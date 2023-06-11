@@ -1,5 +1,5 @@
 <?php
-namespace app\mainClass;
+namespace app;
 
 use PHPTree\Core\PHPTreeRoute as Route;
 use PHPTree\Core\PHPTreeRouteManager AS RouteManager;
