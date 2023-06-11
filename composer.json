@@ -10,9 +10,6 @@
         "phptree/core": "dev-main"
     },
     "license": "MIT",
-    "autoload": {
-        "classmap": ["lib/"]
-    },
     "authors": [
         {
             "name": "PHPTree ( support )",
