@@ -1,10 +1,4 @@
-#Options -Indexes
-#Options +FollowSymLinks
-
 RewriteEngine on
-
-#RewriteCond %{HTTP_HOST} !^www\.
-#RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]

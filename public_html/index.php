@@ -2,8 +2,8 @@
  session_start();
  
  //disable default PHP error reporting and handle them by PHPTree
-  ini_set('error_reporting', 0);
-  ini_set('display_errors', 0);
+  // ini_set('error_reporting', 0);
+  // ini_set('display_errors', 0);
   
  define('DIR', dirname(__DIR__));
  define('START_TIME_DEBUG', microtime(true) );

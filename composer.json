@@ -3,8 +3,7 @@
     "type": "project",
     "keywords": ["phptree","php","php-project","sample-php","code-php","phptree.org"],
     "require": {
-        "phptree/core": "dev-main",
-        "phptree/pdo": "dev-main"
+        "phptree/core": "dev-main"
     },
     "require-dev": {
         "phptree/core": "dev-main"
