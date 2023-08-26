@@ -4,9 +4,7 @@ namespace app\admin;
 use PHPTree\Core\PHPTreeRoute as Route;
 use PHPTree\Core\PHPTreeSecure as Secure;
 
-/*
-	MEM
-*/
+
 class views {
 	
 	

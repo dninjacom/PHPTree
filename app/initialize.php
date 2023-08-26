@@ -4,9 +4,7 @@ namespace app;
 use PHPTree\Core\PHPTreeRoute as Route;
 use PHPTree\Core\PHPTreeSecure as Secure;
 use PHPTree\Core\PHPTreeLogs AS Logs;
-/*
-	MEM
-*/
+
 class initialize {
 	
 	

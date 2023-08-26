@@ -1,6 +1,7 @@
 {
     "name": "phptree/phptree",
     "type": "project",
+    "description" : "The world's lightweight PHP framework",
     "keywords": ["phptree","php","php-project","sample-php","code-php","phptree.org"],
     "require": {
         "phptree/core": "dev-main"
